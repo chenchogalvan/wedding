@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Gerardp & Miroslava</title>
+    <title>Gerardo & Miroslaba</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -48,7 +48,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <h2>Gerardo<span>&amp;</span>Miroslava</h2>
+                                <h2>Gerardo<span>&amp;</span>Miroslaba</h2>
                             </a>
                         </div>
                         <!-- logo close -->
@@ -63,7 +63,7 @@
                         <nav>
                             <ul id="mainmenu">
                                 <li class="active"><a href="#wrapper">Inicio</a></li>
-								<li><a href="#section-couple">Gerardo y Miroslava</a></li>
+								<li><a href="#section-couple">Gerardo y Miroslaba</a></li>
                                 <li><a href="#section-story">Nuestra historia</a></li>
                                 <li><a href="#section-event">Donde</a></li>
                             </ul>
@@ -89,19 +89,27 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h2 class="deco id-color"><span>Nuestro gran día</span></h2>
-                            <h2 data-wow-delay=".2s">{{ $date }}</h2>
+                            <h2 data-wow-delay=".2s">07/05/2021</h2>
                         </div>
 
                         <div class="spacer-double"></div>
 
                         <div class="col-md-5 col-md-offset-1 text-right">
                             <h3>Ceremonia</h3>
-                            {{ $sCeremony }}<br> {{ $pCeremony }}<br>
+                            Lugar: Parroquia San Esteban<br>
+                            Horario: 18:00 PM<br>
+                            Dirección: Guadalupe Victoria, Zona Centro. C.P. 25000, Saltillo, Coahuila.<br>
+                            <a href="https://maps.google.com/maps?q=Parroquia+San+Esteban"
+                                class="btn btn-custom mt30" target="_blank">Ver ubicación</a>
                         </div>
 
                         <div class="col-md-5">
-                            <h3>Recepción </h3>
-                            {{ $sReception }}<br> {{ $pReception }}<br>
+                            <h3>Jardin </h3>
+                            Lugar: Quinta Boreal<br>
+                            Horario: 19:30<br>
+                            Dirección: Sin Nombre #32-109, Mesa de las Cabras, Arteaga Coah. C.P. 2535<br>
+                            <a href="https://maps.google.com/maps?q=Quinta+Boreal"
+                                class="btn btn-custom mt30" target="_blank">Ver ubicación</a>
                         </div>
 
                         <div class="spacer-double"></div>
@@ -110,11 +118,11 @@
             </div>
 
             <!-- section begin -->
-            <section id="section-hero" class="full-height relative z1 owl-slide-wrapper no-top no-bottom text-light" data-stellar-background-ratio=".2">
-                <div class="owl-slider-nav">
+            <section id="section-hero" class="full-height relative z1 owl-slide-wrapper no-top no-bottom text-light" data-stellar-background-ratio=".2" style="background-image: url({{ asset('portada.jpg') }})">
+                {{-- <div class="owl-slider-nav">
                     <div class="next"></div>
                     <div class="prev"></div>
-                </div>
+                </div> --}}
 
                 <div class="center-y fadeScroll relative" data-scroll-speed="4">
                     <div class="container">
@@ -130,7 +138,7 @@
                                         <span class="deco-big" data-scroll-speed="2">&amp;</span>
                                     </div>
                                     <div class="col-md-5 text-left text-center-sm relative">
-                                        <h2 class="name">Miroslava</h2>
+                                        <h2 class="name">Miroslaba</h2>
                                     </div>
                                 </div>
                             </div>
@@ -138,9 +146,9 @@
                     </div>
                 </div>
 
-                <div id="custom-owl-slider" class="owl-slide" data-scroll-speed="2">
+                {{-- <div id="custom-owl-slider" class="owl-slide" data-scroll-speed="2">
                     <div class="item">
-                        <img src="{{ asset('image/4.jpg') }}" class="img-responsive" alt="">
+                        <img src="{{ asset('portada.jpg') }}" class="img-responsive" alt="">
                     </div>
                     <div class="item">
                         <img src="{{ asset('image/2.jpg') }}" class="img-responsive" alt="">
@@ -148,7 +156,7 @@
                     <div class="item">
                         <img src="{{ asset('image/3.jpg') }}" class="img-responsive" alt="">
                     </div>
-                </div>
+                </div> --}}
             </section>
             <!-- section close -->
 
@@ -161,8 +169,8 @@
                         <div class="col-md-5 col-md-offset-1 text-center">
                             <img src="images/misc/1.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft" data-wow-delay=".2s" />
                             <div class="padding40">
-                                <h2>Miroslava</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odio est minus fuga iusto non corporis nobis, dignissimos odit similique eaque laborum rerum sequi dolore beatae incidunt ad laboriosam vero!</p>
+                                <h2>Miroslaba</h2>
+                                <p>Miros es sin duda la mejor pediatra que jamás existirá además de inteligente, bella y con un corazón de oro, se ha encargado de hacer feliz a Ger con cariño y ternura en cada momento desde que son novios, cada cosa que hace es perfecta y llena de atención al detalle, tiene la sonrisa más hermosa y si la ves seguro trae elotes en la mano.</p>
                             </div>
                         </div>
 
@@ -170,7 +178,7 @@
                             <img src="images/misc/2.jpg" alt="" class="img-responsive img-rounded wow fadeInRight" data-wow-delay=".2s" />
                             <div class="padding40">
                                 <h2>Gerardo</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odio est minus fuga iusto non corporis nobis, dignissimos odit similique eaque laborum rerum sequi dolore beatae incidunt ad laboriosam vero!</p>
+                                <p>Gerardo (Ger para quienes lo estimamos) es un hombre noble, amable, extremadamente inteligente y divertido, no hay día que no me haga reír y al mismo tiempo siempre me asombra con todo su conocimiento. Es el diseñador más talentoso del mundo pero sobre todo es el mejor novio del Universo.</p>
                             </div>
                         </div>
 
@@ -364,7 +372,7 @@
                             Lugar: Parroquia San Esteban<br>
                             Horario: 18:00 PM<br>
                             Dirección: Guadalupe Victoria, Zona Centro. C.P. 25000, Saltillo, Coahuila.<br>
-                            <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+                            <a href="https://maps.google.com/maps?q=Parroquia+San+Esteban"
                                 class="btn btn-custom mt30 popup-gmaps">Ver ubicación</a>
                         </div>
                     </div>
@@ -377,7 +385,7 @@
                             Lugar: Quinta Boreal<br>
                             Horario: 19:30<br>
                             Dirección: Sin Nombre #32-109, Mesa de las Cabras, Arteaga Coah. C.P. 2535<br>
-                            <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+                            <a href="https://maps.google.com/maps?q=Quinta+Boreal"
                                 class="btn btn-custom mt30 popup-gmaps">Ver ubicación</a>
                         </div>
 
@@ -472,7 +480,7 @@
 
 
             <!-- section begin -->
-            <section id="section-guestbook" class="text-light" data-stellar-background-ratio=".2">
+            {{-- <section id="section-guestbook" class="text-light" data-stellar-background-ratio=".2">
                 <div class="container relative">
                     <div class="row">
                         <div class="col-md-12 text-center">
@@ -536,7 +544,7 @@
 
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- section close -->
 
 
@@ -551,7 +559,7 @@
             <div class="container text-center text-light">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="hs1 wow fadeInUp">Gerardo<span>&amp;</span>Miroslava</h2>
+                        <h2 class="hs1 wow fadeInUp">Gerardo<span>&amp;</span>Miroslaba</h2>
                     </div>
                 </div>
             </div>

@@ -1,19 +1,20 @@
-/* default color: #D4AF37  */
+/* default color: #CC9C75  */
+
 .bg-color,
 section.bg-color,
 section.call-to-action,
 #mainmenu li li a:hover,
-#mainmenu ul li:hover > a,
+#mainmenu ul li:hover>a,
 .price-row,
 .slider-info .text1,
 .btn-primary,
 .bg-id-color,
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus,
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus,
 .dropcap,
 .fullwidthbanner-container a.btn,
 .feature-box-big-icon i,
@@ -25,8 +26,10 @@ section.call-to-action,
 .date-post,
 .team-list .small-border,
 .de-team-list .small-border,
-.btn-line:hover,a.btn-line:hover,
-.btn-line.hover,a.btn-line.hover,
+.btn-line:hover,
+a.btn-line:hover,
+.btn-line.hover,
+a.btn-line.hover,
 .owl-arrow span,
 .de-progress .progress-bar,
 #btn-close-x:hover,
@@ -46,30 +49,33 @@ section.call-to-action,
 .de_tab.tab_style_2 .de_nav li.active span,
 .de_tab.tab_steps.style-2 .de_nav li.active span,
 .feature-box-small-icon.style-2 .number.bg-color,
-a.btn-custom,.btn-custom,
+a.btn-custom,
+.btn-custom,
 span.overlay,
 .owl-custom-nav .btn-next:before,
 .owl-custom-nav .btn-prev:before,
-.timeline > li > .timeline-badge,
-.de_light  .de_tab.tab_style_3 .de_nav li.active span,
+.timeline>li>.timeline-badge,
+.de_light .de_tab.tab_style_3 .de_nav li.active span,
 .circle,
 .social-icons-sm i:hover,
 .btn-rsvp,
 .btn-close,
 .pricing-s1 .ribbon,
 .social-icons-sm i:hover,
-.overlay-v i:before
-{
-	background-color:#D4AF37 ;
+.overlay-v i:before {
+    background-color: #CC9C75;
 }
 
 .feature-box i,
-#mainmenu li:hover > ul,
-#mainmenu li:hover > a,
+#mainmenu li:hover>ul,
+#mainmenu li:hover>a,
 .date-box .day,
 .slider_text h1,
 .id-color,
-h1.id-color,h2.id-color,h3.id-color,h4.id-color,
+h1.id-color,
+h2.id-color,
+h3.id-color,
+h4.id-color,
 .pricing-box li h1,
 .title span,
 i.large:hover,
@@ -87,14 +93,17 @@ a.btn-slider:after,
 a.btn-line:after,
 .team-list .social a,
 .de_contact_info i,
-.dark .btn-line:hover:after, .dark a.btn-line:hover:after, .dark a.btn-line.hover:after,
+.dark .btn-line:hover:after,
+.dark a.btn-line:hover:after,
+.dark a.btn-line.hover:after,
 a.btn-text:after,
-.separator span  i,
+.separator span i,
 address span strong,
 .de_tab.tab_steps .de_nav li span:hover,
 .de_testi_by,
 .widget_tags li a,
-.dark .btn-line:after, .dark  a.btn-line:after,
+.dark .btn-line:after,
+.dark a.btn-line:after,
 .crumb a,
 .btn-right:after,
 .btn-left:before,
@@ -107,80 +116,84 @@ header .info .social i:hover,
 #filters a.selected,
 span.deco-big,
 h2.hs1 span,
-.wm,.wm2,
+.wm,
+.wm2,
 .blog-list .date-box .day,
 .countdown-period,
 .pricing-s1 .top .price .currency,
 header div#logo h2 span,
-#menu-btn
-{
-	color:#D4AF37
+#menu-btn {
+    color: #CC9C75
 }
 
 .feature-box i,
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus
-.feature-box-big-icon i:after,
-.btn-line:hover,a.btn-line:hover,
-.btn-line.hover,a.btn-line.hover,
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus .feature-box-big-icon i:after,
+.btn-line:hover,
+a.btn-line:hover,
+.btn-line.hover,
+a.btn-line.hover,
 .product img:hover,
-#contact_form input[type=text]:focus,#contact_form textarea:focus, #search:focus,
-#contact_form .de_light input[type=text]:focus, #contact_form .de_lighttextarea:focus, #contact_form .de_light #search:focus,
-.form-transparent input[type=text]:focus, .form-transparent textarea:focus, .form-transparent input[type=email]:focus,
+#contact_form input[type=text]:focus,
+#contact_form textarea:focus,
+#search:focus,
+#contact_form .de_light input[type=text]:focus,
+#contact_form .de_lighttextarea:focus,
+#contact_form .de_light #search:focus,
+.form-transparent input[type=text]:focus,
+.form-transparent textarea:focus,
+.form-transparent input[type=email]:focus,
 .de_tab.tab_steps.style-2 .de_nav li.active span,
 #filters a.selected,
-.box-border
-{
-
-	border-color:#D4AF37 ;
+.box-border {
+    border-color: #CC9C75;
 }
 
 .box-fx .inner,
 .dark .box-fx .inner,
 .blog-list img,
 .arrow-up,
-.de_light  .de_tab.tab_style_2 .de_nav li.active span,
-.timeline > li > .timeline-panel,
+.de_light .de_tab.tab_style_2 .de_nav li.active span,
+.timeline>li>.timeline-panel,
 .separator span:before,
 .separator span:after,
 .de_light .separator span:before,
 .de_light .separator span:after,
 .text-light .separator span:before,
-.text-light .separator span:after ,
-.form-underline input[type=text]:focus, .form-underline textarea:focus, .form-underline input[type=email]:focus, .form-underline select:focus
-{
-	border-bottom-color:#D4AF37 ;
+.text-light .separator span:after,
+.form-underline input[type=text]:focus,
+.form-underline textarea:focus,
+.form-underline input[type=email]:focus,
+.form-underline select:focus {
+    border-bottom-color: #CC9C75;
 }
 
 .arrow-down,
-.preloader1{
-	border-top-color:#D4AF37 ;
+.preloader1 {
+    border-top-color: #CC9C75;
 }
 
 .callbacks_nav {
-	background-color:#D4AF37 ;
+    background-color: #CC9C75;
 }
 
-
 .de_tab .de_nav li span {
-border-top: 3px solid #D4AF37 ;
+    border-top: 3px solid #CC9C75;
 }
 
 .feature-box-big-icon i:after {
-border-color: #D4AF37  transparent; /*same colour as the lower of the bubble's gradient*/
+    border-color: #CC9C75 transparent;
+    /*same colour as the lower of the bubble's gradient*/
 }
 
-.de_review li.active img{
-	border:solid 4px #D4AF37 ;
+.de_review li.active img {
+    border: solid 4px #CC9C75;
 }
 
-
-blockquote{
-border-left-color:#D4AF37 ;
+blockquote {
+    border-left-color: #CC9C75;
 }
-
-
