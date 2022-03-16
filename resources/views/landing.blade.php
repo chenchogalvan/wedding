@@ -57,7 +57,7 @@
                         <span id="menu-btn"></span>
                         <!-- small button close -->
 
-                        <span class="btn-rsvp">RSVP</span>
+                        <span class="btn-rsvp">Itinerario</span>
 
                         <!-- mainmenu begin -->
                         <nav>
@@ -110,6 +110,11 @@
                             Dirección: Sin Nombre #32-109, Mesa de las Cabras, Arteaga Coah. C.P. 2535<br>
                             <a href="https://maps.google.com/maps?q=Quinta+Boreal"
                                 class="btn btn-custom mt30" target="_blank">Ver ubicación</a>
+                        </div>
+
+                        <div class="col-md-12 text-center" style="margin-top:40px">
+                            <h3>Fin del Evento</h3>
+                            Horario: 2:00 A.M.
                         </div>
 
                         <div class="spacer-double"></div>
@@ -167,7 +172,7 @@
                     <div class="row">
 
                         <div class="col-md-5 col-md-offset-1 text-center">
-                            <img src="images/misc/1.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft" data-wow-delay=".2s" />
+                            <img src="{{ asset('miro.jpeg') }}" alt="" class="img-responsive img-rounded wow fadeInLeft" data-wow-delay=".2s" />
                             <div class="padding40">
                                 <h2>Miroslaba</h2>
                                 <p>Miros es sin duda la mejor pediatra que jamás existirá además de inteligente, bella y con un corazón de oro, se ha encargado de hacer feliz a Ger con cariño y ternura en cada momento desde que son novios, cada cosa que hace es perfecta y llena de atención al detalle, tiene la sonrisa más hermosa y si la ves seguro trae elotes en la mano.</p>
@@ -175,7 +180,7 @@
                         </div>
 
                         <div class="col-md-5 text-center">
-                            <img src="images/misc/2.jpg" alt="" class="img-responsive img-rounded wow fadeInRight" data-wow-delay=".2s" />
+                            <img src="{{ asset('ger.jpeg') }}" alt="" class="img-responsive img-rounded wow fadeInRight" data-wow-delay=".2s" />
                             <div class="padding40">
                                 <h2>Gerardo</h2>
                                 <p>Gerardo (Ger para quienes lo estimamos) es un hombre noble, amable, extremadamente inteligente y divertido, no hay día que no me haga reír y al mismo tiempo siempre me asombra con todo su conocimiento. Es el diseñador más talentoso del mundo pero sobre todo es el mejor novio del Universo.</p>
