@@ -89,7 +89,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h2 class="deco id-color"><span>Nuestro gran día</span></h2>
-                            <h2 data-wow-delay=".2s">07/05/2021</h2>
+                            <h2 data-wow-delay=".2s">07/05/2022</h2>
                         </div>
 
                         <div class="spacer-double"></div>
@@ -97,9 +97,9 @@
                         <div class="col-md-5 col-md-offset-1 text-right">
                             <h3>Ceremonia</h3>
                             Lugar: Parroquia San Esteban<br>
-                            Horario: 18:00 PM<br>
+                            Horario: 18:00<br>
                             Dirección: Guadalupe Victoria, Zona Centro. C.P. 25000, Saltillo, Coahuila.<br>
-                            <a href="https://maps.google.com/maps?q=Parroquia+San+Esteban"
+                            <a href="https://www.google.com/maps/place/Parroquia+San+Esteban/@25.4223343,-101.0042092,17z/data=!3m2!4b1!5s0x868872bda27bfe5d:0x993896eb59038d4a!4m5!3m4!1s0x868872bda2a002fb:0x1bd54b6aec8e51f6!8m2!3d25.4223295!4d-101.0020205"
                                 class="btn btn-custom mt30" target="_blank">Ver ubicación</a>
                         </div>
 
@@ -108,7 +108,7 @@
                             Lugar: Quinta Boreal<br>
                             Horario: 19:30<br>
                             Dirección: Sin Nombre #32-109, Mesa de las Cabras, Arteaga Coah. C.P. 2535<br>
-                            <a href="https://maps.google.com/maps?q=Quinta+Boreal"
+                            <a href="https://www.google.com/maps/place/Quinta+Boreal/@25.4412777,-100.8464845,17z/data=!3m1!4b1!4m5!3m4!1s0x86880f2bac288a99:0xf033b7b7b96f4d48!8m2!3d25.4412788!4d-100.8443026"
                                 class="btn btn-custom mt30" target="_blank">Ver ubicación</a>
                         </div>
 
@@ -353,7 +353,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h2 class="deco id-color"><span>¡Para los invitados!</span></h2>
-                            <h2 data-wow-delay=".2s">07/05/2021</h2>
+                            <h2 data-wow-delay=".2s">07/05/2022</h2>
                         </div>
                     </div>
                 </div>
@@ -375,10 +375,10 @@
                         <div class="col-md-5 col-md-offset-1 pt40 pb40 wow fadeIn" data-wow-delay=".5s">
                             <h3>Ceremonia</h3>
                             Lugar: Parroquia San Esteban<br>
-                            Horario: 18:00 PM<br>
+                            Horario: 18:00<br>
                             Dirección: Guadalupe Victoria, Zona Centro. C.P. 25000, Saltillo, Coahuila.<br>
-                            <a href="https://maps.google.com/maps?q=Parroquia+San+Esteban"
-                                class="btn btn-custom mt30 popup-gmaps">Ver ubicación</a>
+                            <a href="https://www.google.com/maps/place/Parroquia+San+Esteban/@25.4223343,-101.0042092,17z/data=!3m2!4b1!5s0x868872bda27bfe5d:0x993896eb59038d4a!4m5!3m4!1s0x868872bda2a002fb:0x1bd54b6aec8e51f6!8m2!3d25.4223295!4d-101.0020205"
+                                class="btn btn-custom mt30" target="_blank">Ver ubicación</a>
                         </div>
                     </div>
 
@@ -390,8 +390,8 @@
                             Lugar: Quinta Boreal<br>
                             Horario: 19:30<br>
                             Dirección: Sin Nombre #32-109, Mesa de las Cabras, Arteaga Coah. C.P. 2535<br>
-                            <a href="https://maps.google.com/maps?q=Quinta+Boreal"
-                                class="btn btn-custom mt30 popup-gmaps">Ver ubicación</a>
+                            <a href="https://www.google.com/maps/place/Quinta+Boreal/@25.4412777,-100.8464845,17z/data=!3m1!4b1!4m5!3m4!1s0x86880f2bac288a99:0xf033b7b7b96f4d48!8m2!3d25.4412788!4d-100.8443026"
+                                class="btn btn-custom mt30" target="_blank">Ver ubicación</a>
                         </div>
 
                         <div class="col-md-6 col-md-offset-1">
@@ -413,12 +413,12 @@
 								</div>
 
                                 <div class="col-md-3 col-md-offset-3 text-center" style="background-size: cover;">
-									<a href="#"><img src="{{ asset('amazon.jpg') }}" alt="" class="img-responsive mb30"></a>
+									<a href="https://www.amazon.com.mx/wedding/miroslaba-avila-gerardo-salazar-saltillo-may-2022/registry/QJE2NBQX7J4N" target="_blank"><img src="{{ asset('amazon.jpg') }}" alt="" class="img-responsive mb30"></a>
                                     {{-- <h4>Amazon</h4> --}}
                                 </div>
 
 								<div class="col-md-3 text-center" style="background-size: cover;">
-									<a href="#"><img src="{{ asset('liverpool.jpg') }}" alt="" class="img-responsive mb30"></a>
+									<a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50692030" target="_blank"><img src="{{ asset('liverpool.jpg') }}" alt="" class="img-responsive mb30"></a>
                                     {{-- <h4>Liverpool</h4> --}}
                                 </div>
                             </div>
