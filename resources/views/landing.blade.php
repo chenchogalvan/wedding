@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/animsition.min.css') }}" type="text/css">
 
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/lightgallery.css') }}" />
+
 
 
     <!-- custom background -->
@@ -330,6 +332,27 @@
                 </div>
             </section>
 
+            <section data-bgcolor="#CC9C75">
+                <div class="container">
+                    <div class="row wow fadeInUp">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+
+                            <h3 style="padding:20px 0; color:#fff;">DRESSCODE:
+                            <br><br>FORMAL</h3>
+
+                            <h3 style="padding:20px 0; color:#fff;">SIN MENORES DE 16</h3>
+
+                            <h3 style="padding:20px 0; color:#fff;">¿DUDAS?<br><br>
+                            <a href="https://api.whatsapp.com/send?phone=528441823050&text=SOY %20INVITADO(A)%20A%20LA%20BODA%20DE%20MIROS%20Y%20GER%20Y%20NECESITO%20INFORMACION" style="color:#fff;"> CONTACTA A NUESTRA PLANNER</a>
+                            </h3>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
             <!-- section begin -->
             <section id="section-quote" aria-label="section-quote-1" class="text-light" data-stellar-background-ratio=".2">
                 <div class="container">
@@ -420,6 +443,31 @@
 								<div class="col-md-3 text-center" style="background-size: cover;">
 									<a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50692030" target="_blank"><img src="{{ asset('liverpool.jpg') }}" alt="" class="img-responsive mb30"></a>
                                     {{-- <h4>Liverpool</h4> --}}
+                                </div>
+                            </div>
+                        </div>
+            </section>
+
+            <section data-bgcolor="#fff" style="background-color: rgb(255,255,255); background-size: cover;">
+                <div class="container" style="background-size: cover;">
+                            <div class="row" style="background-size: cover;">
+								<div class="col-md-12 text-center" style="background-size: cover;">
+									<h2 class="s1">PROVEEDORES</h2>
+									<div class="small-border" style="background-size: cover;"></div>
+								</div>
+
+                                <div class="col-md-4 col-md-offset-2 text-center" id="lightgallery"  data-lg-size="1600-2400" style="background-size: cover;">
+									<a href="{{ asset('MAQ1.jpeg') }}">
+                                        <img src="{{ asset('ICO1.png') }}" alt="" class="img-responsive mb30">
+                                    </a>
+                                    <a href="{{ asset('MAQ2.jpeg') }}">
+                                    </a>
+                                    <h4>Peinado y maquillaje</h4>
+                                </div>
+
+								<div class="col-md-4 text-center" style="background-size: cover;">
+									<a href="{{ asset('PROVEEDORES_BODA.pdf') }}" target="_blank"><img src="{{ asset('ICO2.png') }}" alt="" class="img-responsive mb30"></a>
+                                    <h4>Vestimenta</h4>
                                 </div>
                             </div>
                         </div>
@@ -609,6 +657,13 @@
     <script src="{{ asset('js/countdown-custom.js') }}"></script>
     <script src="{{ asset('js/animsition.min.js') }}"></script>
     <script src="{{ asset('js/designesia.js') }}"></script>
+
+    <script src="{{ asset('js/gallery/lightgallery.js') }}"></script>
+    <script type="text/javascript">
+
+        lightGallery(document.getElementById('lightgallery'));
+    </script>
+
 
 </body>
 
